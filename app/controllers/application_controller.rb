@@ -11,7 +11,7 @@ class ApplicationController < Sinatra::Base
 end
 
 
-class Dog < Sinatra::Base
+class Dog #< Sinatra::Base
   attr_accessor :name,:age,:breed
   def initialize(name,age,breed)
     @name,@age,@breed = name,age,breed
