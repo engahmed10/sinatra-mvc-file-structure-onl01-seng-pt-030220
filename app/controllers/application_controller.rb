@@ -2,7 +2,7 @@ class ApplicationController < Sinatra::Base
   class Dog
     attr_accessor :name,:age,:breed
     def initialize(name,age,breed)
-      @argument = argument
+      @name,@age,@breed = name,age,breed
     end
 
   end
