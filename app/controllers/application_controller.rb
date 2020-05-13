@@ -1,5 +1,5 @@
 class ApplicationController < Sinatra::Base
-  class Dog 
+  class Dog
 
   end
   configure do
